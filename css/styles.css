@@ -1,0 +1,185 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+p{
+  line-height: 2;
+  color: #40514E;
+}
+
+/*
+.hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: auto;
+}
+*/
+
+
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 133px auto;
+}
+
+/* my horizontal rules in contact div are misplaced when i enlarge my brewser */
+
+.contact-messege{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+}
+
+.top-container{
+  margin: 0;
+  padding-top: 70px;
+  background-color:  #EAF6F6;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.social-media{
+  margin-right: 15px;
+}
+
+.footer-name{
+  padding-top: 30px;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.skill-row{
+  width: 50%;
+  height: 250px;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.html-logo{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.css-logo{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.me-picture{
+  border-radius: 8em;
+}
+
+.my-picture{
+  padding: 70px 0 25px 0;
+}
+.all-in-1-logo{
+  margin-top: 15px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+
+
+/*          Form Properties         */
+.form-send{
+  margin-left: 30px;
+  text-align: center;
+}
+
+.form-container{
+  display: inline-block;
+  border: 500px
+}
+
+.form {
+    display: table-row;
+    border: 500px;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+/*      Form Properties End here   */
+
+.btn{
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-left: 2px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
